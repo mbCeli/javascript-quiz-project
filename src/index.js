@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // End view elements
   const resultContainer = document.querySelector("#result");
 
+  
 
   /************  SET VISIBILITY OF VIEWS  ************/
 
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   quizView.style.display = "block";
   endView.style.display = "none";
 
+  
 
   /************  QUIZ DATA  ************/
   
