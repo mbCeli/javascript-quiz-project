@@ -38,7 +38,10 @@ class Quiz {
       this.correctAnswers++;
     } */
     if (!answer || this.currentQuestionIndex >= this.questions.length) return
-    const isAnswerCorrect = answer === this.questions[this.currentQuestionIndex].answer
+    const isAnswerCorrect = (answer === this.questions[this.currentQuestionIndex].answer)
+    if (isAnswerCorrect) {
+      this.correctAnswers++
+    }
     return isAnswerCorrect
   }
 
